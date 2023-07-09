@@ -1,4 +1,4 @@
-fetch("/index.html").then(res=>res.text()).then(res => {
+fetch("https://pocg33.github.io/index.html").then(res=>res.text()).then(res => {
 
 
   document.body.innerHTML = res;
