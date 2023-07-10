@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.1
 info:
-  title: Under Maintenance! Please visit www.attacker.com/api/
+  title: Under Maintenance! Please visit https://www.attacker.com/api/
   version: '1.0'
 paths:
   "/Website is temporarily not available.":
