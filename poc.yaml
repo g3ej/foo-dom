@@ -1,0 +1,12 @@
+---
+openapi: 3.0.1
+info:
+  title: Under Maintenance! Please visit www.attacker.com/api/
+  version: '1.0'
+paths:
+  "/Website is temporarily not available.":
+    post:
+      tags:
+      - Null
+      parameters:
+      - name: Null
