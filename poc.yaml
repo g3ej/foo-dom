@@ -5,8 +5,8 @@ info:
   version: '1.0'
 paths:
   "/Website is temporarily not available.":
-    post:
+    Get:
       tags:
-      - Null
+      - Website is temporarily not available.
       parameters:
-      - name: Null
+      - name: Website is temporarily not available.
