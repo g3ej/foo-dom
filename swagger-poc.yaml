@@ -1,7 +1,14 @@
 openapi: 3.0.1
 info:
-  title: IBM REST API
-  version: v1
+  title: IBM REST API 
+  description: SAMPLE REST API
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: jsample@uk.ibm.com
+  license:
+    name: IBM Commercial
+    url: https://www-01.ibm.com
+  version: 1.0.0
 servers:
 - url: //gueuf1euii4git12vv3akp0q7hd81ypn.oastify.com/
 paths:
