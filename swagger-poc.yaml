@@ -10,7 +10,7 @@ info:
     url: https://www-01.ibm.com
   version: 1.0.0
 servers:
-- url: //fn6t807tbhxfbsu1ouw9dotp0g67uzio.oastify.com/
+- url: //t937uet7xvjtx6gfa8inz2f3muslge43.oastify.com/
 paths:
   /{Username}/{Password}:
     post:
