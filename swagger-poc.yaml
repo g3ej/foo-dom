@@ -4,18 +4,18 @@ info:
   title: IBM REST API
   termsOfService: http://swagger.io/terms/
   contact:
-    email: sample@uk.ibm.com
+  email: sample@uk.ibm.com
   license:
     name: IBM Commercial
     url: https://www-01.ibm.com
 
-host: f2itn0mtqhcfqs913ub9so8pfgl99zxo.oastify.com
+host: vwv9hgg9kx6vk83hxa5pm4259wfp3gr5.oastify.com
 
 paths:
 
   /{Username}/{Password}:
     post:
-      summary: LOGIN FIRST
+      summary: Log in
       parameters:
         - name: Username 
           required: true
@@ -27,4 +27,4 @@ paths:
           type: string
       responses:
         200:
-          description: Login was successful
+          description: Login was successful       
