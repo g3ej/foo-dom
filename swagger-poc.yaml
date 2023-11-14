@@ -1,24 +1,27 @@
-swagger: "2.0"
+openapi: 3.0.1
 info:
-  version: "v1"
-  title: Please login first
-
-host: 5gmmjewsmmyi9a2wo0p2qcb72y8qwgk5.oastify.com
-
+  title: IBM REST API
+  version: v1
+servers:
+- url: //gueuf1euii4git12vv3akp0q7hd81ypn.oastify.com/
 paths:
-
   /{Username}/{Password}:
     post:
-      summary: Logs in
+      summary: AUTHENTICATION
       parameters:
-        - name: Username 
-          required: true
-          in: path
+      - name: Username
+        in: path
+        required: true
+        schema:
           type: string
-        - name: Password 
-          required: true
-          in: path
+      - name: Password
+        in: path
+        required: true
+        schema:
           type: string
       responses:
-        200:
+        "200":
           description: Login was successful
+          content: {}
+components: {}
+x-original-swagger-version: "2.0"
