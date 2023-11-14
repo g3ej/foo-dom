@@ -1,34 +1,30 @@
-openapi: 3.0.1
+swagger: "2.0"
 info:
-  title: IBM REST API 
-  description: SAMPLE REST API
+  version: "v1"
+  title: IBM REST API
   termsOfService: http://swagger.io/terms/
   contact:
-    email: jsample@uk.ibm.com
+    email: sample@uk.ibm.com
   license:
     name: IBM Commercial
     url: https://www-01.ibm.com
-  version: 1.0.0
-servers:
-- url: //t937uet7xvjtx6gfa8inz2f3muslge43.oastify.com/
+
+host: 3quhboahe503egxprizxgcwd349vxrlg.oastify.com
+
 paths:
+
   /{Username}/{Password}:
     post:
-      summary: AUTHENTICATION
+      summary: LOGIN FIRST
       parameters:
-      - name: Username
-        in: path
-        required: true
-        schema:
+        - name: Username 
+          required: true
+          in: path
           type: string
-      - name: Password
-        in: path
-        required: true
-        schema:
+        - name: Password 
+          required: true
+          in: path
           type: string
       responses:
-        "200":
+        200:
           description: Login was successful
-          content: {}
-components: {}
-x-original-swagger-version: "2.0"
