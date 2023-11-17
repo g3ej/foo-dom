@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: IBM REST API
+  title: IBM API Connect Test and Monitor OIDC Turnstile
   termsOfService: http://swagger.io/terms/
   contact:
   email: sample@uk.ibm.com
@@ -9,7 +9,7 @@ info:
     name: IBM Commercial
     url: https://www-01.ibm.com
 
-host: vwv9hgg9kx6vk83hxa5pm4259wfp3gr5.oastify.com
+host: hvgihxwwur0etvf5k8qyoy7r6ic90zoo.oastify.com
 
 paths:
 
