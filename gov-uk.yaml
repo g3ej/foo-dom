@@ -20,14 +20,14 @@ info:
         </form>
 </div><br><br><br><br>'
   contact:
-    name: Stiona
-    url: https://stiona.com
+    name: Foo
+    url: https://example.com
 
 paths:
   /:
     get:
       tags: 
-      - daera-ni.gov.uk
+      - Proof-Of-Concept
       responses:
         '200':
           description: Login successful
