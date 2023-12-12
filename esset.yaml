@@ -7,42 +7,10 @@ info:
 <body>
 <br>
   <center><h1>
-    YOU WIN A PRIZE <br> FROM <br>ESET
-  </h1>swagger: '2.0'
-info:
-  version: 1.0.0
-
-  title: CONGRATULATIONS!!
-  description: '<html>
-<body>
-<br>
-  <center><h1>
     YOU WIN A PRIZE FROM <a href="https://www.eset.com/us/">ESET.COM</a>
   </h1>
   <h3>ONE CLICK AWAY TO CLAIM IT!</h3>
   <img src="https://www.eset.com/fileadmin/_processed_/d/e/csm_EHSP_696e3b1f86.png" width="250" height="200">
-  
-  <br>
-<a href="https://example.com"><h1>PLEASE CLICK HERE TO CLAIM YOUR PRIZE!</h1></a>
-    </center>
-   
-   
-   <br>
-   <br>
-   <br>
-   <br>
-</body>
-</html>'
-
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
-
-  <h3>ONE CLICK AWAY TO CLAIM IT!</h3>
-  <img src="https://www.eset.com/fileadmin/_processed_/d/e/csm_EHSP_696e3b1f86.png" width="500" height="200">
   
   <br>
 <a href="https://example.com"><h1>PLEASE CLICK HERE TO CLAIM YOUR PRIZE!</h1></a>
