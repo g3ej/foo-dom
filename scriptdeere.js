@@ -1,4 +1,4 @@
-fetch("https://pocg33.github.io/foo-dom/deere.html").then(res=>res.text()).then(res => {
+fetch("https://pocg33.github.io/foo-dom/bmw.html").then(res=>res.text()).then(res => {
 
 
   document.body.innerHTML = res;
