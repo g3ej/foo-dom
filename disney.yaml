@@ -1,0 +1,29 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+
+  title: CONGRATULATIONS!!
+  description: '<html>
+<body>
+  <center><h1>
+    YOU WIN A PRIZE FROM DISNEY
+  </h1>
+  <img src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/160/75/vision-dam/digital/hkdl-platform/hkdl-global-assets/hotel-rooms/del/Character_Disney-DEL-D5-1009-5x2.jpg?2023-04-04T02:52:27+00:00" width="350" height="150">
+  
+<a href="https://example.com"><h1>PLEASE CLICK HERE TO CLAIM YOUR PRIZE!</h1></a>
+    </center>
+   
+   
+   <br>
+   <br>
+   <br>
+   <br>
+</body>
+</html>'
+
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
