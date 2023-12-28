@@ -1,0 +1,32 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+
+  title: WE'RE HIRING!
+  description: '<html>
+<body>
+<br>
+<br>
+  <center><h1>
+    Discover why our work environment
+was voted best in the industry by our
+employees. Join our team today.
+  </h1>
+  
+<a href="https://example.com"><h1>APPLY NOW!</h1></a>
+    </center>
+   
+   
+   <br>
+   <br>
+   <br>
+   <br>
+</body>
+</html>'
+
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
