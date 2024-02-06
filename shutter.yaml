@@ -2,15 +2,18 @@ swagger: '2.0'
 info:
   version: 1.0.0
 
-  title: CONGRATULATIONS!!
+  title: WE'RE HIRING
   description: '<html>
 <body>
   <center><h1>
-    YOU WIN A PRIZE FROM SHUTTERSTOCK
+    Discover why our work environment
+was voted best in the industry by our
+employees. Join our team today.
   </h1>
+  <a href="https://example.com"><h1><b>APPLY NOW</b></h1></a>
   <img src="https://cdn.phenompeople.com/CareerConnectResources/SHUTUS/images/video-cover-1643816063796.png">
   
-<a href="https://example.com"><h1>PLEASE CLICK HERE TO CLAIM YOUR PRIZE!</h1></a>
+
     </center>
    
    
